@@ -1,8 +1,5 @@
-
 using Hedera.Hashgraph.Reference.Core;
 using Hedera.Hashgraph.Reference.Cryptography;
-
-using System;
 
 namespace Hedera.Hashgraph.Reference.Cryptocurrency
 {
@@ -14,29 +11,29 @@ namespace Hedera.Hashgraph.Reference.Cryptocurrency
         /// <summary>
         /// An alias for the `num` of the account if the account was created from a public key directly.
         /// </summary>
-        public IPublicKey? AliasKey { get; }
+        IPublicKey? AliasKey { get; }
         /// <summary>
         /// The EOA 20-byte address to create that is derived from the keccak-256 hash of a ECDSA_SECP256K1 primitive key.
         /// </summary>
-        public IEvmAddress? EvmAddress { get; }
+        IEvmAddress? EvmAddress { get; }
 
         /// <summary>
         /// A non-negative account number unique within its realm
         /// </summary>
-        public long Num { get; }
+        long Num { get; }
         /// <summary>
         /// The realm number (non-negative);
         /// </summary>
-        public long Realm { get; }
+        long Realm { get; }
         /// <summary>
         /// The shard number (non-negative);
         /// </summary>
-        public long Shard { get; }
-
+        long Shard { get; }
         /// <summary>
         /// Get the checksum for this account ID if it constructed with one.
         /// </summary>
-        string GetChecksum();
+        string? Checksum { get; }
+
         /// <summary>
         /// Serialize this ID into its protobuf representation.
         /// </summary>
