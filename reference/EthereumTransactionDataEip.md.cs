@@ -1,4 +1,4 @@
-namespace Hedera.Hashgraph.Reference
+namespace Hiero.Reference
 {
     public interface IEthereumTransactionDataEip1559 : IEthereumTransactionData
     {

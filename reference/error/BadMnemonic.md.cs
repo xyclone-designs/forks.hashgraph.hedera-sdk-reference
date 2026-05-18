@@ -1,6 +1,6 @@
-using Hedera.Hashgraph.Reference.Cryptography;
+using Hiero.Reference.Cryptography;
 
-namespace Hedera.Hashgraph.Reference.Error
+namespace Hiero.Reference.Error
 {
     /// <summary>
     /// Custom exception for when there are issues with the mnemonic.

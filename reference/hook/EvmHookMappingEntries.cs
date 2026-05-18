@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Hedera.Hashgraph.Reference.Hook
+namespace Hiero.Reference.Hook
 {
     public interface IEvmHookMappingEntries : IEvmHookStorageUpdate
     {

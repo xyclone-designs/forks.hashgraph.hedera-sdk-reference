@@ -1,6 +1,6 @@
-using Hedera.Hashgraph.Reference.Core;
+using Hiero.Reference.Core;
 
-namespace Hedera.Hashgraph.Reference.Token
+namespace Hiero.Reference.Token
 {
     /// <summary>
     /// Burns tokens from the Token's treasury Account. If no Supply IKey is defined, the transaction will resolve to

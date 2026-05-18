@@ -1,10 +1,10 @@
-using Hedera.Hashgraph.Reference.Core;
-using Hedera.Hashgraph.Reference.Cryptocurrency;
-using Hedera.Hashgraph.Reference.Cryptography;
+using Hiero.Reference.Core;
+using Hiero.Reference.Cryptocurrency;
+using Hiero.Reference.Cryptography;
 
 using System;
 
-namespace Hedera.Hashgraph.Reference.Token
+namespace Hiero.Reference.Token
 {
     /// <summary>
     /// Create a new token. After the token is created, the Token ID for it is in the receipt.

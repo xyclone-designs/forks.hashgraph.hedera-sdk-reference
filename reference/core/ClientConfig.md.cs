@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Hedera.Hashgraph.Reference.Core
+namespace Hiero.Reference.Core
 {
     /// <summary>
     /// The config file specification for [`Client`](Client.md) construction

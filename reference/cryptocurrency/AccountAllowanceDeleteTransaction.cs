@@ -1,10 +1,10 @@
-using Hedera.Hashgraph.Reference.Core;
-using Hedera.Hashgraph.Reference.Token;
-using Hedera.Hashgraph.Reference.Token.Nft;
+using Hiero.Reference.Core;
+using Hiero.Reference.Token;
+using Hiero.Reference.Token.Nft;
 
 using System.Collections.Generic;
 
-namespace Hedera.Hashgraph.Reference.Cryptocurrency
+namespace Hiero.Reference.Cryptocurrency
 {
     public interface IAccountAllowanceDeleteTransaction : ITransaction
     {

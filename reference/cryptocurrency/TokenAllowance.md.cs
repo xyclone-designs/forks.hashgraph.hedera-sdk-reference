@@ -1,6 +1,6 @@
-using Hedera.Hashgraph.Reference.Token;
+using Hiero.Reference.Token;
 
-namespace Hedera.Hashgraph.Reference.Cryptocurrency
+namespace Hiero.Reference.Cryptocurrency
 {
     public interface ITokenAllowance
     {

@@ -1,11 +1,10 @@
-using Hedera.Hashgraph.Reference.Cryptography;
+using Hiero.Reference.Cryptography;
+
 using System.Collections.Generic;
 using System.Diagnostics.Metrics;
 using System.Text.RegularExpressions;
-using static Grpc.Core.Metadata;
-using static System.Net.Mime.MediaTypeNames;
 
-namespace Hedera.Hashgraph.Reference.Cryptography
+namespace Hiero.Reference.Cryptography
 {
     /// <summary>
     /// Test vectors provided by the <a href="https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki">BIP39</a> standards.

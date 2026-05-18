@@ -1,6 +1,6 @@
-using Hedera.Hashgraph.Reference.Cryptography;
+using Hiero.Reference.Cryptography;
 
-namespace Hedera.Hashgraph.Reference.Contract
+namespace Hiero.Reference.Contract
 {
     /// <summary>
     /// An ID type that represents a contract on a Hedera Hashgraph network.

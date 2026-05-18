@@ -1,6 +1,6 @@
-using Hedera.Hashgraph.Reference.Cryptocurrency;
+using Hiero.Reference.Cryptocurrency;
 
-namespace Hedera.Hashgraph.Reference.Core
+namespace Hiero.Reference.Core
 {
     /// <summary>
     /// When the client sends the node a transaction of any kind, the node replies with this,

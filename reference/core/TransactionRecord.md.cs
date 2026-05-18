@@ -1,15 +1,15 @@
-using Hedera.Hashgraph.Reference.Contract;
-using Hedera.Hashgraph.Reference.Cryptocurrency;
-using Hedera.Hashgraph.Reference.Cryptography;
-using Hedera.Hashgraph.Reference.Fee;
-using Hedera.Hashgraph.Reference.Schedule;
-using Hedera.Hashgraph.Reference.Token;
-using Hedera.Hashgraph.Reference.Token.Nft;
+using Hiero.Reference.Contract;
+using Hiero.Reference.Cryptocurrency;
+using Hiero.Reference.Cryptography;
+using Hiero.Reference.Fee;
+using Hiero.Reference.Schedule;
+using Hiero.Reference.Token;
+using Hiero.Reference.Token.Nft;
 
 using System;
 using System.Collections.Generic;
 
-namespace Hedera.Hashgraph.Reference.Core
+namespace Hiero.Reference.Core
 {
     public interface ITransactionRecord
     {

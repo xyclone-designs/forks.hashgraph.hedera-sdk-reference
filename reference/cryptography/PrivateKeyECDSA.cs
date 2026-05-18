@@ -1,5 +1,5 @@
 
-namespace Hedera.Hashgraph.Reference.Cryptography
+namespace Hiero.Reference.Cryptography
 {
     public interface IPrivateKeyECDSA : IPrivateKey
     {

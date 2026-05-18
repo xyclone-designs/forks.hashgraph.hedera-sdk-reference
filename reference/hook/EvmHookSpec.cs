@@ -1,6 +1,6 @@
-using Hedera.Hashgraph.Reference.Contract;
+using Hiero.Reference.Contract;
 
-namespace Hedera.Hashgraph.Reference.Hook
+namespace Hiero.Reference.Hook
 {
     public interface IEvmHookSpec
     {

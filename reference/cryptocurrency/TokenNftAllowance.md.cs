@@ -1,8 +1,8 @@
-using Hedera.Hashgraph.Reference.Token;
+using Hiero.Reference.Token;
 
 using System.Collections.Generic;
 
-namespace Hedera.Hashgraph.Reference.Cryptocurrency
+namespace Hiero.Reference.Cryptocurrency
 {
     public interface ITokenNftAllowance
     {

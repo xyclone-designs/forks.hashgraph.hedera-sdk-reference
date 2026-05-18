@@ -1,6 +1,6 @@
-using Hedera.Hashgraph.Reference.Cryptography;
+using Hiero.Reference.Cryptography;
 
-namespace Hedera.Hashgraph.Reference.Core
+namespace Hiero.Reference.Core
 {
     /// <summary>
     /// The operator config file specification for [`Client`](Client.md) construction

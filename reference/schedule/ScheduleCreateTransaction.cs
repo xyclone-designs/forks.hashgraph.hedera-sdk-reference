@@ -1,7 +1,7 @@
 
-using Hedera.Hashgraph.Reference.Core;
+using Hiero.Reference.Core;
 
-namespace Hedera.Hashgraph.Reference.Schedule
+namespace Hiero.Reference.Schedule
 {
     public interface IScheduleCreateTransaction : ITransaction
     {

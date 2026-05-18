@@ -1,11 +1,11 @@
-using Hedera.Hashgraph.Reference.Core;
-using Hedera.Hashgraph.Reference.Cryptocurrency;
-using Hedera.Hashgraph.Reference.Cryptography;
-using Hedera.Hashgraph.Reference.File;
+using Hiero.Reference.Core;
+using Hiero.Reference.Cryptocurrency;
+using Hiero.Reference.Cryptography;
+using Hiero.Reference.File;
 
 using System;
 
-namespace Hedera.Hashgraph.Reference.Contract
+namespace Hiero.Reference.Contract
 {
     /// <summary>
     /// </summary>

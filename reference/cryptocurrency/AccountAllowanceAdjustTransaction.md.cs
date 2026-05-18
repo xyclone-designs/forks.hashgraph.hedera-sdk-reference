@@ -1,8 +1,8 @@
-using Hedera.Hashgraph.Reference.Core;
-using Hedera.Hashgraph.Reference.Token;
-using Hedera.Hashgraph.Reference.Token.Nft;
+using Hiero.Reference.Core;
+using Hiero.Reference.Token;
+using Hiero.Reference.Token.Nft;
 
-namespace Hedera.Hashgraph.Reference.Cryptocurrency
+namespace Hiero.Reference.Cryptocurrency
 {
     /// <summary>
     /// <b>WARNING</b>: This class has been **deprecated** and is no longer supported by the Hedera protobufs.

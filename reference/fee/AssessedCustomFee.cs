@@ -1,5 +1,5 @@
 
-namespace Hedera.Hashgraph.Reference.Fee
+namespace Hiero.Reference.Fee
 {
     public interface IAssessedCustomFee
     {

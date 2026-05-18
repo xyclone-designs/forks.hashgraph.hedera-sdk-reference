@@ -1,4 +1,4 @@
-namespace Hedera.Hashgraph.Reference.Core
+namespace Hiero.Reference.Core
 {
     /// <summary>
     /// Get the record for a transaction.

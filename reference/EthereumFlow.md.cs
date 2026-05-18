@@ -1,4 +1,4 @@
-namespace Hedera.Hashgraph.Reference
+namespace Hiero.Reference
 {
     /// <summary>
     /// A helper class to submit ethereum transactions to Hedera. This class will take

@@ -1,7 +1,7 @@
-using Hedera.Hashgraph.Reference.Contract;
-using Hedera.Hashgraph.Reference.Core;
+using Hiero.Reference.Contract;
+using Hiero.Reference.Core;
 
-namespace Hedera.Hashgraph.Reference.Cryptocurrency
+namespace Hiero.Reference.Cryptocurrency
 {
     /// <summary>
     /// > extends [`Query`](../core/Query.md) < [`Hbar`](../Hbar.md) >

@@ -1,6 +1,6 @@
-using Hedera.Hashgraph.Reference.Core;
+using Hiero.Reference.Core;
 
-namespace Hedera.Hashgraph.Reference.Cryptocurrency
+namespace Hiero.Reference.Cryptocurrency
 {
     /// <summary>
     /// Get all the accounts that are proxy staking to this account. For each of them, give the amount

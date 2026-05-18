@@ -1,5 +1,5 @@
 
-namespace Hedera.Hashgraph.Reference.Token
+namespace Hiero.Reference.Token
 {
     public interface ITokenTransfer
     {

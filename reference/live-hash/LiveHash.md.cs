@@ -1,9 +1,9 @@
-using Hedera.Hashgraph.Reference.Cryptocurrency;
-using Hedera.Hashgraph.Reference.Cryptography;
+using Hiero.Reference.Cryptocurrency;
+using Hiero.Reference.Cryptography;
 
 using System;
 
-namespace Hedera.Hashgraph.Reference.LiveHash
+namespace Hiero.Reference.LiveHash
 {
     public interface ILiveHash 
     {

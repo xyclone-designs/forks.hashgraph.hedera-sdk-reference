@@ -1,6 +1,6 @@
-using Hedera.Hashgraph.Reference.Core;
+using Hiero.Reference.Core;
 
-namespace Hedera.Hashgraph.Reference.Error
+namespace Hiero.Reference.Error
 {
     /// <summary>
     /// An Exception thrown on error status by [`TransactionId.getReceipt()`](../core/TransactionId.md#getreceipt--client---transactionreceipt-)

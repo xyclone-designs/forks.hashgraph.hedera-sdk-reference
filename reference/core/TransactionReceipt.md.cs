@@ -1,14 +1,14 @@
-using Hedera.Hashgraph.Reference.Consensus;
-using Hedera.Hashgraph.Reference.Contract;
-using Hedera.Hashgraph.Reference.Cryptocurrency;
-using Hedera.Hashgraph.Reference.File;
-using Hedera.Hashgraph.Reference.Schedule;
-using Hedera.Hashgraph.Reference.Token;
+using Hiero.Reference.Consensus;
+using Hiero.Reference.Contract;
+using Hiero.Reference.Cryptocurrency;
+using Hiero.Reference.File;
+using Hiero.Reference.Schedule;
+using Hiero.Reference.Token;
 
 using System;
 using System.Collections.Generic;
 
-namespace Hedera.Hashgraph.Reference.Core
+namespace Hiero.Reference.Core
 {
     /// <summary>
     /// The summary of a transaction's result so far. If the transaction has not reached consensus, this

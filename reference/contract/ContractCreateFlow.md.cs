@@ -1,9 +1,9 @@
-using Hedera.Hashgraph.Reference.Cryptocurrency;
-using Hedera.Hashgraph.Reference.Cryptography;
+using Hiero.Reference.Cryptocurrency;
+using Hiero.Reference.Cryptography;
 
 using System;
 
-namespace Hedera.Hashgraph.Reference.Contract
+namespace Hiero.Reference.Contract
 {
     /// <summary>
     /// A helper class to create a contract file bytecode directly. This will use

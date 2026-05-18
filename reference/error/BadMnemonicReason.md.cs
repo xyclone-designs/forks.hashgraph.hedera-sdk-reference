@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: Apache-2.0
 
-namespace Hedera.Hashgraph.Reference.Error
+namespace Hiero.Reference.Error
 {
     /// <summary>
     /// Possible reason why a [`Mnemonic`](../cryptography/Mnemonic.md) failed validation.

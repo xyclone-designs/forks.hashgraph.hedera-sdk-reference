@@ -1,8 +1,8 @@
-using Hedera.Hashgraph.Reference.Core;
+using Hiero.Reference.Core;
 
 using System.Collections.Generic;
 
-namespace Hedera.Hashgraph.Reference.Token.Airdrop
+namespace Hiero.Reference.Token.Airdrop
 {
     public interface IPendingAirdropLogic : ITransaction
     {

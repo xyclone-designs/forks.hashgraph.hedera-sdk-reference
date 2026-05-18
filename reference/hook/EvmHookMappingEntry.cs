@@ -1,5 +1,5 @@
 
-namespace Hedera.Hashgraph.Reference.Hook
+namespace Hiero.Reference.Hook
 {
     public interface IEvmHookMappingEntry
     {

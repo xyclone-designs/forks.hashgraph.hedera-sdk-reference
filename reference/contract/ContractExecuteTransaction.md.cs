@@ -1,6 +1,6 @@
-using Hedera.Hashgraph.Reference.Core;
+using Hiero.Reference.Core;
 
-namespace Hedera.Hashgraph.Reference.Contract
+namespace Hiero.Reference.Contract
 {
     public interface IContractExecuteTransaction : ITransaction
     {

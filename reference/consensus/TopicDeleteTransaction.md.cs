@@ -1,6 +1,6 @@
-using Hedera.Hashgraph.Reference.Core;
+using Hiero.Reference.Core;
 
-namespace Hedera.Hashgraph.Reference.Consensus
+namespace Hiero.Reference.Consensus
 {
     public interface ITopicDeleteTransaction : ITransaction
     {

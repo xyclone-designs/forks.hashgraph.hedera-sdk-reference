@@ -1,6 +1,6 @@
-using Hedera.Hashgraph.Reference.Core;
+using Hiero.Reference.Core;
 
-namespace Hedera.Hashgraph.Reference.Token
+namespace Hiero.Reference.Token
 {
     /// <summary>
     /// Unpauses the Token. Must be signed with the Token's pause key.  If the provided

@@ -1,5 +1,5 @@
 
-namespace Hedera.Hashgraph.Reference.Contract
+namespace Hiero.Reference.Contract
 {
     public interface IContractNonceInfo
     {

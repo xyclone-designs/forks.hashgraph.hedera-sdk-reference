@@ -1,9 +1,9 @@
-using Hedera.Hashgraph.Reference.Core;
-using Hedera.Hashgraph.Reference.Cryptography;
+using Hiero.Reference.Core;
+using Hiero.Reference.Cryptography;
 
 using System;
 
-namespace Hedera.Hashgraph.Reference.File
+namespace Hiero.Reference.File
 {
     public interface IFileCreateTransaction : ITransaction
     {

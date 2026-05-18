@@ -1,5 +1,5 @@
 
-namespace Hedera.Hashgraph.Reference.Cryptocurrency
+namespace Hiero.Reference.Cryptocurrency
 {
     public interface IHbarAllowance
     {

@@ -1,7 +1,7 @@
-using Hedera.Hashgraph.Reference.Core;
-using Hedera.Hashgraph.Reference.Cryptocurrency;
+using Hiero.Reference.Core;
+using Hiero.Reference.Cryptocurrency;
 
-namespace Hedera.Hashgraph.Reference.LiveHash
+namespace Hiero.Reference.LiveHash
 {
     /// <summary>
     /// Returns the full livehash associated to an account, if it is present. Note that the only way to

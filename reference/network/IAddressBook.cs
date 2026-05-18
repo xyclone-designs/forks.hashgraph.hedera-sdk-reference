@@ -1,5 +1,5 @@
 
-namespace Hedera.Hashgraph.Reference.Network
+namespace Hiero.Reference.Network
 {
     public interface IAddressBook
     {

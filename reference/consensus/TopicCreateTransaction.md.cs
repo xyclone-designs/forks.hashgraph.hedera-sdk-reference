@@ -1,10 +1,10 @@
-using Hedera.Hashgraph.Reference.Core;
-using Hedera.Hashgraph.Reference.Cryptocurrency;
-using Hedera.Hashgraph.Reference.Cryptography;
+using Hiero.Reference.Core;
+using Hiero.Reference.Cryptocurrency;
+using Hiero.Reference.Cryptography;
 
 using System;
 
-namespace Hedera.Hashgraph.Reference.Consensus
+namespace Hiero.Reference.Consensus
 {
     public interface ITopicCreateTransaction : ITransaction
     {

@@ -1,12 +1,12 @@
-using Hedera.Hashgraph.Reference.Cryptography;
-using Hedera.Hashgraph.Reference.LiveHash;
-using Hedera.Hashgraph.Reference.Token;
+using Hiero.Reference.Cryptography;
+using Hiero.Reference.LiveHash;
+using Hiero.Reference.Token;
 
 using System;
 using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 
-namespace Hedera.Hashgraph.Reference.Cryptocurrency
+namespace Hiero.Reference.Cryptocurrency
 {
     /// <summary>
     /// Info about the account (a state proof can be generated for this)

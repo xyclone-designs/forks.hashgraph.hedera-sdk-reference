@@ -1,11 +1,11 @@
-using Hedera.Hashgraph.Reference.Cryptocurrency;
-using Hedera.Hashgraph.Reference.Cryptography;
-using Hedera.Hashgraph.Reference.Token;
+using Hiero.Reference.Cryptocurrency;
+using Hiero.Reference.Cryptography;
+using Hiero.Reference.Token;
 
 using System;
 using System.Collections.Generic;
 
-namespace Hedera.Hashgraph.Reference.Contract
+namespace Hiero.Reference.Contract
 {
     public interface IContractInfo
     {

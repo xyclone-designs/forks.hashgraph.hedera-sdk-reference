@@ -1,6 +1,6 @@
 using System;
 
-namespace Hedera.Hashgraph.Reference.Consensus
+namespace Hiero.Reference.Consensus
 {
     /// <summary>
     /// An ID type that represents a topic on a Hedera Hashgraph network.

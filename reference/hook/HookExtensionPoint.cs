@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: Apache-2.0
 
-namespace Hedera.Hashgraph.Reference.Hook
+namespace Hiero.Reference.Hook
 {
     public enum HookExtensionPoint
     {

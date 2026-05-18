@@ -1,6 +1,6 @@
-using Hedera.Hashgraph.Reference.Core;
+using Hiero.Reference.Core;
 
-namespace Hedera.Hashgraph.Reference.Fee
+namespace Hiero.Reference.Fee
 {
     public interface IScheduleInfoQuery : IQuery<IScheduleInfoQuery> { }
 }

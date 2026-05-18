@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: Apache-2.0
 
-namespace Hedera.Hashgraph.Reference.System
+namespace Hiero.Reference.System
 {
     /// <summary>
     /// The type of network freeze or upgrade operation to be performed. This type dictates which

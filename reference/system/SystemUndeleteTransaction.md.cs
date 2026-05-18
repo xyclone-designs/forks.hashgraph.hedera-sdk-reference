@@ -1,10 +1,10 @@
-using Hedera.Hashgraph.Reference.Contract;
-using Hedera.Hashgraph.Reference.Core;
-using Hedera.Hashgraph.Reference.File;
+using Hiero.Reference.Contract;
+using Hiero.Reference.Core;
+using Hiero.Reference.File;
 
 using System;
 
-namespace Hedera.Hashgraph.Reference.System
+namespace Hiero.Reference.System
 {
     /// <summary>
     /// Undelete a file or smart contract that was deleted by SystemDelete; requires a Hedera

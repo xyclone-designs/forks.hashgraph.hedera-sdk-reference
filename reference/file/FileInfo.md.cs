@@ -1,8 +1,8 @@
-using Hedera.Hashgraph.Reference.Cryptography;
+using Hiero.Reference.Cryptography;
 
 using System;
 
-namespace Hedera.Hashgraph.Reference.File
+namespace Hiero.Reference.File
 {
     public interface IFileInfo
     {

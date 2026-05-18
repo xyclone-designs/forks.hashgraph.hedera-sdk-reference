@@ -1,4 +1,4 @@
-namespace Hedera.Hashgraph.Reference.Error
+namespace Hiero.Reference.Error
 {
     /// <summary>
     /// Signals that a private or public key could not be realized from the input.

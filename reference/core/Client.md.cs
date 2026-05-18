@@ -1,10 +1,10 @@
-using Hedera.Hashgraph.Reference.Cryptocurrency;
-using Hedera.Hashgraph.Reference.Cryptography;
-using Hedera.Hashgraph.Reference.Network;
+using Hiero.Reference.Cryptocurrency;
+using Hiero.Reference.Cryptography;
+using Hiero.Reference.Network;
 using System;
 using System.Collections.Generic;
 
-namespace Hedera.Hashgraph.Reference.Core
+namespace Hiero.Reference.Core
 {
     /// <summary>
     /// Managed client for use on the Hedera Hashgraph network.

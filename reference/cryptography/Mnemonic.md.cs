@@ -1,7 +1,7 @@
 
 using System.Collections.Generic;
 
-namespace Hedera.Hashgraph.Reference.Cryptography
+namespace Hiero.Reference.Cryptography
 {
     /// <summary>
     /// Multi-word mnemonic phrases.

@@ -1,6 +1,6 @@
-using Hedera.Hashgraph.Reference.Core;
+using Hiero.Reference.Core;
 
-namespace Hedera.Hashgraph.Reference.Network
+namespace Hiero.Reference.Network
 {
     public interface INetworkVersionInfoQuery : IQuery<INetworkVersionInfo> { }
 }

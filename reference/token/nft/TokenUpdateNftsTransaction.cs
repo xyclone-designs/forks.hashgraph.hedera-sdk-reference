@@ -1,6 +1,6 @@
-using Hedera.Hashgraph.Reference.Core;
+using Hiero.Reference.Core;
 
-namespace Hedera.Hashgraph.Reference.Token.Nft
+namespace Hiero.Reference.Token.Nft
 {
     public interface ITokenUpdateNftsTransaction : ITransaction
     {

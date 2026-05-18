@@ -1,4 +1,4 @@
-namespace Hedera.Hashgraph.Reference
+namespace Hiero.Reference
 {
     /// <summary>
     /// https://hips.hedera.com/hip/hip-351

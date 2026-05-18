@@ -1,7 +1,7 @@
-using Hedera.Hashgraph.Reference.Core;
-using Hedera.Hashgraph.Reference.Cryptography;
+using Hiero.Reference.Core;
+using Hiero.Reference.Cryptography;
 
-namespace Hedera.Hashgraph.Reference.Cryptocurrency
+namespace Hiero.Reference.Cryptocurrency
 {
     /// <summary>
     /// The ID for a cryptocurrency account

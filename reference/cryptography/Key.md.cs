@@ -1,5 +1,5 @@
 
-namespace Hedera.Hashgraph.Reference.Cryptography
+namespace Hiero.Reference.Cryptography
 {
     /// <summary>
     /// A IKey can be a public key from one of the three supported systems (ed25519, RSA-3072,  ECDSA with

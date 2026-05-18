@@ -1,7 +1,7 @@
-using Hedera.Hashgraph.Reference.Core;
-using Hedera.Hashgraph.Reference.Cryptocurrency;
+using Hiero.Reference.Core;
+using Hiero.Reference.Cryptocurrency;
 
-namespace Hedera.Hashgraph.Reference.Token
+namespace Hiero.Reference.Token
 {
     /// <summary>
     /// Freezes transfers of the specified token for the account. Must be signed by the Token's freezeKey.

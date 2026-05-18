@@ -1,6 +1,6 @@
 using System;
 
-namespace Hedera.Hashgraph.Reference.Consensus
+namespace Hiero.Reference.Consensus
 {
     public interface ITopicMessageChunk
     {

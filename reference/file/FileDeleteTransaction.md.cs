@@ -1,6 +1,6 @@
-using Hedera.Hashgraph.Reference.Core;
+using Hiero.Reference.Core;
 
-namespace Hedera.Hashgraph.Reference.File
+namespace Hiero.Reference.File
 {
     /// <summary>
     /// Delete a file that exists on the Hedera Hashgraph network.

@@ -1,4 +1,4 @@
-namespace Hedera.Hashgraph.Reference.Cryptocurrency
+namespace Hiero.Reference.Cryptocurrency
 {
     /// <summary>
     /// Information about a single account that is proxy staking

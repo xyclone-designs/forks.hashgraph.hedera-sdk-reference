@@ -1,8 +1,8 @@
-using Hedera.Hashgraph.Reference.Core;
-using Hedera.Hashgraph.Reference.Cryptocurrency;
+using Hiero.Reference.Core;
+using Hiero.Reference.Cryptocurrency;
 using System.Security.Cryptography.X509Certificates;
 
-namespace Hedera.Hashgraph.Reference.Cryptography
+namespace Hiero.Reference.Cryptography
 {
     /// <summary>
     /// A private key on the Hedera™ network.

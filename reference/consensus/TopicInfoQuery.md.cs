@@ -1,4 +1,4 @@
-namespace Hedera.Hashgraph.Reference.Consensus
+namespace Hiero.Reference.Consensus
 {
     /// <summary>
     /// Retrieve the latest state of a topic.

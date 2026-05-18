@@ -1,6 +1,6 @@
-using Hedera.Hashgraph.Reference.Core;
+using Hiero.Reference.Core;
 
-namespace Hedera.Hashgraph.Reference.Hook
+namespace Hiero.Reference.Hook
 {
     public interface IHookStoreTransaction : ITransaction { }
 }

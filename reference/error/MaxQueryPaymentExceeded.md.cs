@@ -1,4 +1,4 @@
-namespace Hedera.Hashgraph.Reference.Error
+namespace Hiero.Reference.Error
 {
     /// <summary>
     /// Signals that a query will cost more than a pre-configured maximum payment amount.

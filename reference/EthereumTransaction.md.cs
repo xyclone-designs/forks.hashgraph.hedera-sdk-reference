@@ -1,7 +1,7 @@
-using Hedera.Hashgraph.Reference.Core;
-using Hedera.Hashgraph.Reference.File;
+using Hiero.Reference.Core;
+using Hiero.Reference.File;
 
-namespace Hedera.Hashgraph.Reference
+namespace Hiero.Reference
 {
     /// <summary>
     /// An Ethereum encoded transaction.

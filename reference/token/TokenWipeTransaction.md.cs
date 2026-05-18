@@ -1,7 +1,7 @@
-using Hedera.Hashgraph.Reference.Core;
-using Hedera.Hashgraph.Reference.Cryptocurrency;
+using Hiero.Reference.Core;
+using Hiero.Reference.Cryptocurrency;
 
-namespace Hedera.Hashgraph.Reference.Token
+namespace Hiero.Reference.Token
 {
     /// <summary>
     /// Wipes the provided amount of tokens from the specified Account. Must be signed by the Token's Wipe key.

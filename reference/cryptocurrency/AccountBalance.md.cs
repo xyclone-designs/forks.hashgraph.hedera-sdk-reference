@@ -1,6 +1,6 @@
-using Hedera.Hashgraph.Reference.Token;
+using Hiero.Reference.Token;
 
-namespace Hedera.Hashgraph.Reference.Cryptocurrency
+namespace Hiero.Reference.Cryptocurrency
 {
     /// <summary>
     /// Response when the client sends the node CryptoGetAccountBalanceQuery

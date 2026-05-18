@@ -1,6 +1,6 @@
-using Hedera.Hashgraph.Reference.Core;
+using Hiero.Reference.Core;
 
-namespace Hedera.Hashgraph.Reference.Schedule
+namespace Hiero.Reference.Schedule
 {
     /// <summary>
     /// An ID type that represents a schedule on a Hedera Hashgraph network.

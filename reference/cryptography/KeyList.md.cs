@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Hedera.Hashgraph.Reference.Cryptography
+namespace Hiero.Reference.Cryptography
 {
     /// <summary>
     /// A list of Keys with an optional threshold. If a threshold is set the key list will be treated as

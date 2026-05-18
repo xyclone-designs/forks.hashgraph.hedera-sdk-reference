@@ -1,9 +1,9 @@
-using Hedera.Hashgraph.Reference.Core;
-using Hedera.Hashgraph.Reference.Fee;
+using Hiero.Reference.Core;
+using Hiero.Reference.Fee;
 
 using System.Collections.Generic;
 
-namespace Hedera.Hashgraph.Reference.Token
+namespace Hiero.Reference.Token
 {
     public interface ITokenFeeScheduleUpdateTransaction : ITransaction
     {

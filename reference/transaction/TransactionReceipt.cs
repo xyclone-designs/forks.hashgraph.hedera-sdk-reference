@@ -1,6 +1,6 @@
-using Hedera.Hashgraph.Reference.Core;
+using Hiero.Reference.Core;
 
-namespace Hedera.Hashgraph.Reference.Transaction
+namespace Hiero.Reference.Transaction
 {
     public interface ITransactionReceipt { }
     public interface ITransactionReceipt<TSelf> : ITransaction where TSelf : ITransactionReceipt<TSelf> { }

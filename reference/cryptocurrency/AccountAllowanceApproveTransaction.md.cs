@@ -1,8 +1,8 @@
-using Hedera.Hashgraph.Reference.Core;
-using Hedera.Hashgraph.Reference.Token;
-using Hedera.Hashgraph.Reference.Token.Nft;
+using Hiero.Reference.Core;
+using Hiero.Reference.Token;
+using Hiero.Reference.Token.Nft;
 
-namespace Hedera.Hashgraph.Reference.Cryptocurrency
+namespace Hiero.Reference.Cryptocurrency
 {
     /// <summary>
     /// Creates one or more hbar/token approved allowances <b>relative to the payer account of this

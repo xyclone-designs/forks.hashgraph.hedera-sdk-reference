@@ -1,8 +1,8 @@
-using Hedera.Hashgraph.Reference.Cryptocurrency;
+using Hiero.Reference.Cryptocurrency;
 
 using System;
 
-namespace Hedera.Hashgraph.Reference.Core
+namespace Hiero.Reference.Core
 {
     /// <summary>
     /// Base class for all queries that may be submitted to Hedera.

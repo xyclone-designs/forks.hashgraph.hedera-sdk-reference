@@ -1,6 +1,6 @@
 using System.Numerics;
 
-namespace Hedera.Hashgraph.Reference
+namespace Hiero.Reference
 {
     public interface IHbar
     {

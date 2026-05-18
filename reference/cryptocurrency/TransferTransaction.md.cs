@@ -1,8 +1,8 @@
-using Hedera.Hashgraph.Reference.Core;
-using Hedera.Hashgraph.Reference.Token;
-using Hedera.Hashgraph.Reference.Token.Nft;
+using Hiero.Reference.Core;
+using Hiero.Reference.Token;
+using Hiero.Reference.Token.Nft;
 
-namespace Hedera.Hashgraph.Reference.Cryptocurrency
+namespace Hiero.Reference.Cryptocurrency
 {
     /// <summary>
     /// Transfers cryptocurrency among two or more accounts by making the desired adjustments to their

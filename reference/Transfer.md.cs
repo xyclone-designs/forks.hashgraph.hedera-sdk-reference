@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: Apache-2.0
-using Hedera.Hashgraph.Reference.Cryptocurrency;
+using Hiero.Reference.Cryptocurrency;
 
-namespace Hedera.Hashgraph.Reference
+namespace Hiero.Reference
 {
     public interface ITransfer
     {

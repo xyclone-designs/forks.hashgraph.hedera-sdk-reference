@@ -1,8 +1,8 @@
-using Hedera.Hashgraph.Reference.Cryptocurrency;
+using Hiero.Reference.Cryptocurrency;
 
 using System;
 
-namespace Hedera.Hashgraph.Reference.Core
+namespace Hiero.Reference.Core
 {
     /// <summary>
     /// The client-generated ID for a transaction.

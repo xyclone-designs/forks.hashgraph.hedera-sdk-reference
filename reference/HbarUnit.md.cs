@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Hedera.Hashgraph.Reference
+namespace Hiero.Reference
 {
     public readonly struct HbarUnit : IComparable<HbarUnit>, IEquatable<HbarUnit>
     {

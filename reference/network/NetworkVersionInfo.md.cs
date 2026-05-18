@@ -1,6 +1,6 @@
-using Hedera.Hashgraph.Reference.Token;
+using Hiero.Reference.Token;
 
-namespace Hedera.Hashgraph.Reference.Network
+namespace Hiero.Reference.Network
 {
     public interface INetworkVersionInfo
     {

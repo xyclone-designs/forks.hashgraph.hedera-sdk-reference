@@ -1,5 +1,5 @@
 
-namespace Hedera.Hashgraph.Reference.File
+namespace Hiero.Reference.File
 {
     /// <summary>
     /// An ID type that represents a file on a Hedera Hashgraph network.

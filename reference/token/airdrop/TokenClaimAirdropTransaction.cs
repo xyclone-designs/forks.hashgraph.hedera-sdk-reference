@@ -1,5 +1,5 @@
 
-namespace Hedera.Hashgraph.Reference.Token.Airdrop
+namespace Hiero.Reference.Token.Airdrop
 {
     public interface ITokenClaimAirdropTransaction : IPendingAirdropLogic { }
 }

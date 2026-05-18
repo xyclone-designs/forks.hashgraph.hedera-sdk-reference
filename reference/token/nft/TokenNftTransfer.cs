@@ -1,4 +1,4 @@
-namespace Hedera.Hashgraph.Reference.Token.Nft
+namespace Hiero.Reference.Token.Nft
 {
     public interface ITokenNftTransfer
     {
