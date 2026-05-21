@@ -45,10 +45,10 @@ namespace Hiero.Reference.Core
         /// <summary>
         /// The timestamp of this transaction
         ///
-        /// Each transaction ID must have a unique timestamp. DateTimeOffset generation in the SDK fuzzes the current
+        /// Each transaction ID must have a unique timestamp. NodaTime.Instant generation in the SDK fuzzes the current
         /// time so collisions are less likely
         /// </summary>
-        public DateTimeOffset ValidStart { get; }
+        public NodaTime.Instant ValidStart { get; }
     }
     public interface ITransactionId<TSelf> : ITransactionId where TSelf : ITransactionId<TSelf>
     {
@@ -78,6 +78,6 @@ namespace Hiero.Reference.Core
         /// <summary>
         /// Create a transaction id.
         /// </summary>
-        abstract static ITransactionId WithValidStart(IAccountId accountId, DateTimeOffset validStart);
+        abstract static ITransactionId WithValidStart(IAccountId accountId, NodaTime.Instant validStart);
     }
 }

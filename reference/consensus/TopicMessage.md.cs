@@ -8,7 +8,7 @@ namespace Hiero.Reference.Consensus
         /// The consensus timestamp of this topic message. If this message was chunked, this
         /// field would be equal to the last chunk's consensus timestamp.
         /// </summary>
-        DateTimeOffset ConsensusDateTimeOffset { get; set; }
+        NodaTime.Instant ConsensusDateTimeOffset { get; set; }
         /// <summary>
         /// The contents of this topic message. If this message was chunked, this field would
         /// be equal to the concatination of all the chunks.

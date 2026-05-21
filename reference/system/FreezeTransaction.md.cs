@@ -11,12 +11,12 @@ namespace Hiero.Reference.System
     /// </summary>
     public interface IFreezeTransaction : ITransaction
     {
-        DateTimeOffset StartTime { get; }
+        NodaTime.Instant StartTime { get; }
 
         /// <summary>
         /// Deprecated with no replacement
         /// </summary>
-        DateTimeOffset EndTime { get; }
+        NodaTime.Instant EndTime { get; }
 
         /// <summary>
         /// If set, the file whose contents should be used for a network software update during the maintenance

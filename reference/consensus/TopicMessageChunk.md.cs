@@ -7,7 +7,7 @@ namespace Hiero.Reference.Consensus
         /// <summary>
         /// The consensus timestamp of this topic message chunk.
         /// </summary>
-        DateTimeOffset ConsensusDateTimeOffset { get; set; }
+        NodaTime.Instant ConsensusDateTimeOffset { get; set; }
         /// <summary>
         /// The contents of this topic message chunk.
         /// </summary>

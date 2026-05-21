@@ -53,7 +53,7 @@ namespace Hiero.Reference.Contract
         /// <summary>
         /// The current time at which this contract instance (and its account) is set to expire.
         /// </summary>
-        DateTimeOffset ExpirationTime { get; }
+        NodaTime.Instant ExpirationTime { get; }
         /// <summary>
         /// Whether the contract has been deleted.
         /// </summary>
@@ -86,7 +86,7 @@ namespace Hiero.Reference.Contract
             IAccountId accountId,
             string contractAccountId,
             IKey? adminKey,
-            DateTimeOffset expirationTime,
+            NodaTime.Instant expirationTime,
             TimeSpan autoRenewPeriod,
             IAccountId autoRenewAccountId,
             long storage,

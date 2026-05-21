@@ -30,6 +30,6 @@ namespace Hiero.Reference.File
         ///
         /// - `Timestmap` is the EPOCH seconds and nanoseconds of a future instant.
         /// </summary>
-        DateTimeOffset ExpirationTime { get; }
+        NodaTime.Instant ExpirationTime { get; }
     }
 }

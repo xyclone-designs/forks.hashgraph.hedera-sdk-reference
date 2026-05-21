@@ -54,7 +54,7 @@ namespace Hiero.Reference.Cryptocurrency
         /// <summary>
         /// The TimeStamp time at which this account is set to expire.
         /// </summary>
-        DateTimeOffset ExpirationTime { get; }
+        NodaTime.Instant ExpirationTime { get; }
         /// <summary>
         /// All IHbar allowances approved by the account owner.
         /// </summary>
@@ -144,7 +144,7 @@ namespace Hiero.Reference.Cryptocurrency
             IHbar sendRecordThreshold,
             IHbar receiveRecordThreshold,
             bool receiverSignatureRequired,
-            DateTimeOffset expirationTime,
+            NodaTime.Instant expirationTime,
             TimeSpan autoRenewPeriod,
             IEnumerable<ILiveHash> liveHashes,
             IDictionary<ITokenId, ITokenRelationship> tokenRelationships,

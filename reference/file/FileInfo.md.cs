@@ -18,7 +18,7 @@ namespace Hiero.Reference.File
         /// The expiration time of this file. When current time surpasses the expiration time the
         /// file is deleted from the network.To update the expiration time use[`FileUpdateTransaction`](reference/file/FileUpdateTransaction.md).
         /// </summary>
-        public DateTimeOffset ExpirationTime { get; }
+        public NodaTime.Instant ExpirationTime { get; }
         /// <summary>
         /// Identifies if this file has been deleted.
         /// </summary>
@@ -39,7 +39,7 @@ namespace Hiero.Reference.File
     }
     public interface IFileInfo<TSelf> : IFileInfo where TSelf : IFileInfo<TSelf>
     {
-        abstract static TSelf CTOR(IFileId fileId, long size, DateTimeOffset expirationTime, bool isDeleted, IKeyList keys, ILedgerId ledgerId);
+        abstract static TSelf CTOR(IFileId fileId, long size, NodaTime.Instant expirationTime, bool isDeleted, IKeyList keys, ILedgerId ledgerId);
 
         /// <summary>
         /// Deserialize a [`FileInfo`](#) from its protobuf representation.

@@ -15,7 +15,7 @@ namespace Hiero.Reference
         /// staking or changing staked\_node\_id) or the most recent reward was earned, whichever is later.If this account or contract
         /// is not currently staked to a node, then this field is not set.
         /// </summary>
-        DateTimeOffset StakePeriodStart { get; }
+        NodaTime.Instant StakePeriodStart { get; }
         /// <summary>
         /// The amount in tinybars that will be received in the next reward situation.
         /// </summary>
@@ -40,7 +40,7 @@ namespace Hiero.Reference
     }
     public interface IStakingInfo<TSelf> : IStakingInfo where TSelf : IStakingInfo<TSelf>
     {
-        abstract static TSelf CTOR(bool declineStakingReward, DateTimeOffset stakePeriodStart, IHbar pendingReward, IHbar stakedToMe, IAccountId? stakedAccountId, long? stakedNodeId);
+        abstract static TSelf CTOR(bool declineStakingReward, NodaTime.Instant stakePeriodStart, IHbar pendingReward, IHbar stakedToMe, IAccountId? stakedAccountId, long? stakedNodeId);
 
         /// <summary>
         /// Deserialize a [`StakingInfo`](#) from its the protobuf representation.

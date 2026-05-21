@@ -41,7 +41,7 @@ namespace Hiero.Reference.Cryptocurrency
         /// <summary>
         /// The new expiration time to extend to (ignored if equal to or before the current one)
         /// </summary>
-        DateTimeOffset ExpirationTime { get; }
+        NodaTime.Instant ExpirationTime { get; }
 
         /// <summary>
         /// The new key.

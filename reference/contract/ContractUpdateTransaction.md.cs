@@ -20,7 +20,7 @@ namespace Hiero.Reference.Contract
         /// <summary>
         /// The new expiry of the contract, no earlier than the current expiry.
         /// </summary>
-        DateTimeOffset ExpirationTime { get; }
+        NodaTime.Instant ExpirationTime { get; }
         /// <summary>
         /// Deprecated: with no replacement
         /// ***Not yet implemented***

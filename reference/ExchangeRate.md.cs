@@ -6,6 +6,6 @@ namespace Hiero.Reference
     {
         IHbar IHbars { get; }
         int Cents { get; }
-        DateTimeOffset ExpirationTime { get; }
+        NodaTime.Instant ExpirationTime { get; }
     }
 }

@@ -34,7 +34,7 @@ namespace Hiero.Reference.Consensus
         /// <summary>
         /// The timestamp when this topic will expire which will effectively delete this topic.
         /// </summary>
-        DateTimeOffset ExpirationTime { get; }
+        NodaTime.Instant ExpirationTime { get; }
         /// <summary>
         /// The key that is required to sign transactions that mutate this topic.
         /// </summary>
@@ -58,7 +58,7 @@ namespace Hiero.Reference.Consensus
     }
     public interface ITopicInfo<TSelf> : ITopicInfo where TSelf : ITopicInfo<TSelf>
     {
-        abstract static TSelf CTOR(ITopicId topicId, string topicMemo, byte[] runningHash, ulong sequenceNumber, DateTimeOffset expirationTime, IKey? adminKey, IKey? submitKey, TimeSpan autoRenewPeriod, IAccountId autoRenewAccountId, ILedgerId ledgerId);
+        abstract static TSelf CTOR(ITopicId topicId, string topicMemo, byte[] runningHash, ulong sequenceNumber, NodaTime.Instant expirationTime, IKey? adminKey, IKey? submitKey, TimeSpan autoRenewPeriod, IAccountId autoRenewAccountId, ILedgerId ledgerId);
 
         /// <summary>
         /// Deserialize a [`TopicInfo`](#) from its the protobuf representation.

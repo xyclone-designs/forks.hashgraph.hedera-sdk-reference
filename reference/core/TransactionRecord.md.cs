@@ -43,7 +43,7 @@ namespace Hiero.Reference.Core
         /// <summary>
         /// The timestamp the transaction came to consensus
         /// </summary>
-        public DateTimeOffset ConsensusDateTimeOffset { get; }
+        public NodaTime.Instant ConsensusDateTimeOffset { get; }
         /// <summary>
         /// Result of a ContractExecuteTransaction
         /// </summary>
@@ -68,7 +68,7 @@ namespace Hiero.Reference.Core
         /// <summary>
         /// In the record of an internal transaction, the consensus timestamp of the user transaction that spawned it.
         /// </summary>
-        public DateTimeOffset ParentConsensusDateTimeOffset { get; }
+        public NodaTime.Instant ParentConsensusDateTimeOffset { get; }
         /// <summary>
         /// In the record of a UtilPrng transaction with no output range, a pseudorandom 384-bit string.
         /// </summary>

@@ -118,7 +118,7 @@ namespace Hiero.Reference.Token
         /// <summary>
         /// The epoch second at which the token will expire
         /// </summary>
-        DateTimeOffset Expiry { get; }
+        NodaTime.Instant Expiry { get; }
         /// <summary>
         /// The memo associated with the token
         /// </summary>
@@ -170,7 +170,7 @@ namespace Hiero.Reference.Token
             bool isDeleted,
             IAccountId autoRenewAccount,
             TimeSpan autoRenewPeriod,
-            DateTimeOffset expirationTime,
+            NodaTime.Instant expirationTime,
             string tokenMemo,
             IEnumerable<ICustomFee> customFees,
             TokenType tokenType,
