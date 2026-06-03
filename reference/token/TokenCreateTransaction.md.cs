@@ -96,7 +96,7 @@ namespace Hiero.Reference.Token
         /// The epoch second at which the token should expire; if an auto-renew account and period are specified,
         /// this is coerced to the current epoch second plus the autoRenewPeriod
         /// </summary>
-        DateTimeOffset ExpirationTime { get; }
+        NodaTime.Instant ExpirationTime { get; }
 
         /// <summary>
         /// An account which will be automatically charged to renew the token's expiration, at autoRenewPeriod interval
@@ -108,7 +108,7 @@ namespace Hiero.Reference.Token
         /// <summary>
         /// The interval at which the auto-renew account will be charged to extend the token's expiry
         /// </summary>
-        TimeSpan AutoRenewPeriod { get; }
+        NodaTime.Duration AutoRenewPeriod { get; }
 
         /// <summary>
         /// The IKey which can pause and unpause the Token. If Empty the token pause status defaults to

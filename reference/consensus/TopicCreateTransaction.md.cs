@@ -22,7 +22,7 @@ namespace Hiero.Reference.Consensus
         /// The initial lifetime of the topic and the amount of time to attempt to extend the topic's lifetime by
         /// automatically at the topic's `expirationTime`, if the `autoRenewAccountId` is configured
         /// </summary>
-        TimeSpan AutoRenewPeriod { get; }
+        NodaTime.Duration AutoRenewPeriod { get; }
         /// <summary>
         /// Optional account to be used at the topic's `expirationTime` to extend the life of the topic.
         /// The topic lifetime will be extended up to a maximum of the `autoRenewPeriod` or however long the topic

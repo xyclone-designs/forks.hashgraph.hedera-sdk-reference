@@ -31,7 +31,7 @@ namespace Hiero.Reference.Core
         /// <summary>
         /// The maximum amount of time to wait between retries
         /// </summary>
-        TimeSpan MaxBackoff { get; }
+        NodaTime.Duration MaxBackoff { get; }
 
         /// <summary>
         /// The maximum query payment the client is willing to pay.
@@ -43,7 +43,7 @@ namespace Hiero.Reference.Core
         /// <summary>
         /// The minimum amount of time to wait between retries
         /// </summary>
-        TimeSpan MinBackoff { get; }
+        NodaTime.Duration MinBackoff { get; }
 
         /// <summary>
         /// The node account IDs that will be queried.

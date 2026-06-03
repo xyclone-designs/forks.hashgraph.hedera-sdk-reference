@@ -37,7 +37,7 @@ namespace Hiero.Reference.Cryptocurrency
         ///
         /// Defaults to 90 days (or 7,776,000 seconds).
         /// </summary>
-        TimeSpan AutoRenewPeriod { get; }
+        NodaTime.Duration AutoRenewPeriod { get; }
         /// <summary>
         /// The current balance of account in tinybars
         /// </summary>
@@ -145,7 +145,7 @@ namespace Hiero.Reference.Cryptocurrency
             IHbar receiveRecordThreshold,
             bool receiverSignatureRequired,
             NodaTime.Instant expirationTime,
-            TimeSpan autoRenewPeriod,
+            NodaTime.Duration autoRenewPeriod,
             IEnumerable<ILiveHash> liveHashes,
             IDictionary<ITokenId, ITokenRelationship> tokenRelationships,
             string accountMemo,

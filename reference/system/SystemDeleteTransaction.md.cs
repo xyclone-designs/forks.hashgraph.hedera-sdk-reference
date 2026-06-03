@@ -18,6 +18,6 @@ namespace Hiero.Reference.System
     {
         IFileId IFileId { get; }
         IContractId ContractId { get; }
-        DateTimeOffset ExpirationTime { get; }
+        NodaTime.Instant ExpirationTime { get; }
     }
 }

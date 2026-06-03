@@ -46,7 +46,7 @@ namespace Hiero.Reference.Consensus
         /// <summary>
         /// The duration since topic creation when this topic will be auto renewed and the auto renew account will be charged.
         /// </summary>
-        TimeSpan AutoRenewPeriod { get; }
+        NodaTime.Duration AutoRenewPeriod { get; }
         /// <summary>
         /// The auto renew account that will be charged when the topic is to be auto renewed.
         /// </summary>
@@ -58,7 +58,7 @@ namespace Hiero.Reference.Consensus
     }
     public interface ITopicInfo<TSelf> : ITopicInfo where TSelf : ITopicInfo<TSelf>
     {
-        abstract static TSelf CTOR(ITopicId topicId, string topicMemo, byte[] runningHash, ulong sequenceNumber, NodaTime.Instant expirationTime, IKey? adminKey, IKey? submitKey, TimeSpan autoRenewPeriod, IAccountId autoRenewAccountId, ILedgerId ledgerId);
+        abstract static TSelf CTOR(ITopicId topicId, string topicMemo, byte[] runningHash, ulong sequenceNumber, NodaTime.Instant expirationTime, IKey? adminKey, IKey? submitKey, NodaTime.Duration autoRenewPeriod, IAccountId autoRenewAccountId, ILedgerId ledgerId);
 
         /// <summary>
         /// Deserialize a [`TopicInfo`](#) from its the protobuf representation.

@@ -33,7 +33,7 @@ namespace Hiero.Reference.Contract
         /// <br>
         /// The new interval at which the contract will pay to extend its expiry.
         /// </summary>
-        TimeSpan AutoRenewPeriod { get; }
+        NodaTime.Duration AutoRenewPeriod { get; }
         /// <summary>
         /// The new id of the file asserted to contain the bytecode of the Solidity transaction that created this contract.
         /// </summary>

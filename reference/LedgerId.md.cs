@@ -1,4 +1,3 @@
-using System;
 
 namespace Hiero.Reference
 {
@@ -7,15 +6,15 @@ namespace Hiero.Reference
         /// <summary>
         /// Return if this ledger ID represents a mainnet ledger ID.
         /// </summary>
-        bool IsMainnet();
+        bool IsMainnet { get; }
         /// <summary>
         /// Return if this ledger ID represents a testnet ledger ID.
         /// </summary>
-        bool IsTestnet();
+        bool IsTestnet { get; }
         /// <summary>
         /// Return if this ledger ID represents a previewnet ledger ID.
         /// </summary>
-        bool IsPreviewnet();
+        bool IsPreviewnet { get; }
         /// <summary>
         /// Return the ledger ID bytes
         /// </summary>

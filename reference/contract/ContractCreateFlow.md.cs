@@ -45,7 +45,7 @@ namespace Hiero.Reference.Contract
         /// <summary>
         /// The instance will charge its account every this many seconds to renew for this long.
         /// </summary>
-        TimeSpan AutoRenewPeriod { get; }
+        NodaTime.Duration AutoRenewPeriod { get; }
 
         /// <summary>
         /// Parameters to pass to the constructor.

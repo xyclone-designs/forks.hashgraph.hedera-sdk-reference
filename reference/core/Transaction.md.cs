@@ -17,7 +17,7 @@ namespace Hiero.Reference.Core
         /// **NOTE**: The bytes can be a protobuf encoded `TransactionBody`, `Transaction`, `SignedTransaction`
         /// or `TransactionList`
         /// </summary>
-        // public static Transaction FromBytes(byte[] data);
+        abstract static ITransaction FromBytes(byte[] data);
 
         /// <summary>
         /// Add a signature to the transaction
@@ -126,7 +126,7 @@ namespace Hiero.Reference.Core
         /// <summary>
         /// The maximum amount of time to wait between retries
         /// </summary>
-        TimeSpan MaxBackoff { get; }
+        NodaTime.Duration MaxBackoff { get; }
 
         /// <summary>
         /// The maximum transaction fee the client is willing to pay.
@@ -138,7 +138,7 @@ namespace Hiero.Reference.Core
         /// <summary>
         /// The minimum amount of time to wait between retries
         /// </summary>
-        TimeSpan MinBackoff { get; }
+        NodaTime.Duration MinBackoff { get; }
 
         /// <summary>
         /// The list of node account IDs that this transaction will be submitted to.
@@ -175,11 +175,11 @@ namespace Hiero.Reference.Core
         string TransactionMemo { get; }
 
         /// <summary>
-        /// TimeSpan from the valid start (within the transaction ID) that this
+        /// NodaTime.Duration from the valid start (within the transaction ID) that this
         /// transaction is valid for.
         ///
         /// **NOTE**: Defaults to 120 seconds.
         /// </summary>
-        TimeSpan TransactionValidTimeSpan { get; }
+        NodaTime.Duration TransactionValidDuration { get; }
     }
 }

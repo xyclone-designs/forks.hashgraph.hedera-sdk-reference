@@ -23,6 +23,6 @@ namespace Hiero.Reference.LiveHash
         /// <summary>
         /// The duration for which the livehash will remain valid
         /// </summary>
-        TimeSpan TimeSpan { get; }
+        NodaTime.Duration Duration { get; }
     }
 }

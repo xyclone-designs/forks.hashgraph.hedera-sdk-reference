@@ -67,7 +67,7 @@ namespace Hiero.Reference.Cryptocurrency
         ///
         /// Defaults to 90 days (or 7,776,000 seconds).
         /// </summary>
-        TimeSpan AutoRenewPeriod { get; }
+        NodaTime.Duration AutoRenewPeriod { get; }
 
         /// <summary>
         /// If true, the account declines receiving a staking reward. The default value is false.

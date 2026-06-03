@@ -159,7 +159,7 @@ namespace Hiero.Reference.Core
         /// <summary>
         /// Maximum amount of time closing a network can take.
         /// </summary>
-        public TimeSpan CloseTimeout { get; }
+        public NodaTime.Duration CloseTimeout { get; }
         /// <summary>
         /// The maximum query payment.
         ///
@@ -169,7 +169,7 @@ namespace Hiero.Reference.Core
         /// <summary>
         /// The default maximum fee used for transactions.
         /// </summary>
-        public IHbar DefaultMaxTransactionFee { get; }
+        public IHbar? DefaultMaxTransactionFee { get; }
         /// <summary>
         /// Declares if we should generate new transaction IDs when a transaction fails with `TRANSACTION_EXPIRED`.
         ///
@@ -187,7 +187,7 @@ namespace Hiero.Reference.Core
         /// <summary>
         /// The maximum amount of time to wait between retries
         /// </summary>
-        public TimeSpan MaxBackoff { get; }
+        public NodaTime.Duration MaxBackoff { get; }
         /// <summary>
         /// Max number of times any node in the network can receive a bad gRPC status before being removed from the network.
         /// </summary>
@@ -195,7 +195,7 @@ namespace Hiero.Reference.Core
         /// <summary>
         /// The minimum amount of time to wait between retries
         /// </summary>
-        public TimeSpan MinBackoff { get; }
+        public NodaTime.Duration MinBackoff { get; }
         /// <summary>
         /// The mirror network node list
         /// </summary>
@@ -203,13 +203,13 @@ namespace Hiero.Reference.Core
         /// <summary>
         /// The list of network records
         /// </summary>
-        public IAccountId Network { get; }
+        public IDictionary<string, IAccountId> Network { get; }
         /// <summary>
         /// If present, the client will periodically attempt to update its consensus node network in the background using
         /// an [`AddressBookQuery`](../network/AddressBookQuery.md) against its current mirror network.
         /// If the query fails, the consensus node network will remain unchanged and the query failure will be logged.
         /// </summary>
-        public TimeSpan NetworkUpdatePeriod { get; }
+        public NodaTime.Duration? NetworkUpdatePeriod { get; }
         /// <summary>
         /// The ID of the operator
         /// </summary>
@@ -221,7 +221,7 @@ namespace Hiero.Reference.Core
         /// <summary>
         /// Maximum amount of time a request can run
         /// </summary>
-        public TimeSpan RequestTimeout { get; }
+        public NodaTime.Duration RequestTimeout { get; }
         /// <summary>
         /// Is certificate verification enabled
         ///

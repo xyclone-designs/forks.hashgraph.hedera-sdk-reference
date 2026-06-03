@@ -11,6 +11,6 @@ namespace Hiero.Reference.LiveHash
         IAccountId AccountId { get; }
         byte[] Hash { get; }
         IKeyList Keys { get; }
-        TimeSpan TimeSpan { get; }
+        NodaTime.Duration Duration { get; }
     }
 }

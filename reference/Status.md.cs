@@ -26,7 +26,7 @@ namespace Hiero.Reference
         INVALID_NODE_ACCOUNT,
 
         /// <summary>
-        /// Pre-Check error when TransactionValidStart + transactionValidTimeSpan is less than current
+        /// Pre-Check error when TransactionValidStart + transactionValidNodaTime.Duration is less than current
         /// consensus time.
         /// </summary>
         TRANSACTION_EXPIRED,
@@ -37,7 +37,7 @@ namespace Hiero.Reference
         INVALID_TRANSACTION_START,
 
         /// <summary>
-        /// The given transactionValidTimeSpan was either non-positive, or greater than the maximum
+        /// The given transactionValidNodaTime.Duration was either non-positive, or greater than the maximum
         /// valid duration of 180 secs.
         /// </summary>
         INVALID_TRANSACTION_DURATION,

@@ -114,7 +114,7 @@ namespace Hiero.Reference.Token
         /// <summary>
         /// The interval at which the auto-renew account will be charged to extend the token's expiry
         /// </summary>
-        TimeSpan AutoRenewPeriod { get; }
+        NodaTime.Duration AutoRenewPeriod { get; }
         /// <summary>
         /// The epoch second at which the token will expire
         /// </summary>
@@ -169,7 +169,7 @@ namespace Hiero.Reference.Token
             bool defaultKycStatus,
             bool isDeleted,
             IAccountId autoRenewAccount,
-            TimeSpan autoRenewPeriod,
+            NodaTime.Duration autoRenewPeriod,
             NodaTime.Instant expirationTime,
             string tokenMemo,
             IEnumerable<ICustomFee> customFees,

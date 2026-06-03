@@ -33,7 +33,7 @@ namespace Hiero.Reference.Contract
         /// If there are insufficient funds, then it extends as long as possible.
         /// If the account is empty when it expires, then it is deleted.
         /// </summary>
-        TimeSpan AutoRenewPeriod { get; }
+        NodaTime.Duration AutoRenewPeriod { get; }
         /// <summary>
         /// The current balance, in tinybars.
         /// </summary>
@@ -87,7 +87,7 @@ namespace Hiero.Reference.Contract
             string contractAccountId,
             IKey? adminKey,
             NodaTime.Instant expirationTime,
-            TimeSpan autoRenewPeriod,
+            NodaTime.Duration autoRenewPeriod,
             IAccountId autoRenewAccountId,
             long storage,
             string contractMemo,
