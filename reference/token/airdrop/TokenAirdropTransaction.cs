@@ -1,4 +1,3 @@
-
 using Hiero.Reference.Core;
 
 using System;
